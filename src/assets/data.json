@@ -1,0 +1,244 @@
+{
+  "coffee": [
+    {
+      "name": "Klasické Arabiky (Univerzálne)",
+      "slug": "klasicke-arabiky",
+      "image": "arabica_classic_bg.jpg",
+      "id": 1,
+      "description": "Najpredávanejšie odrody s vyváženou a konzistentnou chuťou, nízkou aciditou a plným telom. Ideálne pre každý deň.",
+      "region_info": "Vhodné pre espresso, moka kanvicu, prekvapkávanú kávu a automatické kávovary.",
+      "beans": [
+        {
+          "name": "Brazília Santos - Medium Roast",
+          "slug": "brazilia-santos-medium",
+          "image": "brazilia_santos.jpg",
+          "price": 10.9,
+          "stock": 150,
+          "taste_notes": "Mliečna čokoláda, Karamel, Lieskové oriešky",
+          "description": "Kultová brazílska káva s jemným a sladkým profilom. Nízka acidita.",
+          "grind_options": ["Celé zrno", "Espresso", "Filter", "Automat"]
+        },
+        {
+          "name": "Kolumbia Excelso - Plné Telo",
+          "slug": "kolumbia-excelso-full",
+          "image": "kolumbia_excelso.jpg",
+          "price": 11.5,
+          "stock": 120,
+          "taste_notes": "Kakao, Červené ovocie, Mandle",
+          "description": "Kolumbijská klasika s plným telom a strednou aciditou. Stabilná a spoľahlivá chuť.",
+          "grind_options": ["Celé zrno", "Espresso", "Všetky metódy"]
+        },
+        {
+          "name": "Honduras SHG - Vyvážená",
+          "slug": "honduras-shg-balanced",
+          "image": "honduras_shg.jpg",
+          "price": 11.2,
+          "stock": 95,
+          "taste_notes": "Hnedý cukor, Citrusy, Kakao",
+          "description": "Vysokohorská káva (SHG) s čistým spracovaním a jasným, ale vyváženým profilom.",
+          "grind_options": ["Celé zrno", "Filter", "Automat"]
+        },
+        {
+          "name": "Peru Grade 1 - Bio Kvalita",
+          "slug": "peru-bio-grade1",
+          "image": "peru_bio.jpg",
+          "price": 12.5,
+          "stock": 80,
+          "taste_notes": "Jemná, Tóny slivky a vanilky",
+          "description": "Organická káva z Andských oblastí. Jemná, príjemná chuť s čistým záverom.",
+          "grind_options": ["Celé zrno", "Filter", "French Press"]
+        }
+      ]
+    },
+    {
+      "name": "Výberové Kávy (Single Origin)",
+      "slug": "vyberove-filter-light",
+      "image": "speciality_bg.jpg",
+      "id": 2,
+      "description": "Kávy pre metódy filtrovania. Svetlé praženie zvýrazňuje jedinečné ovocné a kvetinové tóny každého regiónu.",
+      "region_info": "Vysoká kvalita, ideálne pre V60, Chemex a Aeropress.",
+      "beans": [
+        {
+          "name": "Etiópia Yirgacheffe - Light Roast",
+          "slug": "etiopia-yirgacheffe-light",
+          "image": "etiopia_yirgacheffe.jpg",
+          "price": 14.9,
+          "stock": 65,
+          "taste_notes": "Jazmín, Bergamot, Bobuľové ovocie",
+          "description": "Aromatická, kvetinová, veľmi vysoká acidita. Skutočný 'diamant' medzi africkými kávami.",
+          "grind_options": ["Celé zrno", "Filter (Hrubé)"]
+        },
+        {
+          "name": "Keňa AA - Plná Ovocnosť",
+          "slug": "kena-aa-fruity",
+          "image": "kena_aa.jpg",
+          "price": 15.5,
+          "stock": 55,
+          "taste_notes": "Čierna ríbezľa, Paradajka, Víno",
+          "description": "Komplexná a šťavnatá káva, typická pre Keňu. Stredné telo a výrazné ovocné tóny.",
+          "grind_options": ["Celé zrno", "Filter", "French Press"]
+        },
+        {
+          "name": "Kostarika Tarrazú - Honey Process",
+          "slug": "kostarika-honey",
+          "image": "kostarika_honey.jpg",
+          "price": 13.5,
+          "stock": 70,
+          "taste_notes": "Med, Hrozno, Hladké telo",
+          "description": "Spracovaná metódou Honey, čo dodáva prirodzenú sladkosť a jemné telo.",
+          "grind_options": ["Celé zrno", "Filter"]
+        },
+        {
+          "name": "Rwanda Washed - Čistá",
+          "slug": "rwanda-washed",
+          "image": "rwanda_washed.jpg",
+          "price": 14.0,
+          "stock": 45,
+          "taste_notes": "Pomarančová kôra, Čierny čaj, Karamel",
+          "description": "Veľmi čistá a elegantná káva. Perfektná pre tých, ktorí preferujú menej extrémne chute.",
+          "grind_options": ["Celé zrno", "Filter"]
+        },
+        {
+          "name": "Panama Boquete - Light Roast",
+          "slug": "panama-boquete-light",
+          "image": "panama_boquete.jpg",
+          "price": 16.5,
+          "stock": 35,
+          "taste_notes": "Kvetinová, Jemná čokoláda, Čučoriedky",
+          "description": "Luxusná, vysoko hodnotená Arabika s bohatou, ale jemnou arómou.",
+          "grind_options": ["Celé zrno", "Filter (Hrubé)"]
+        },
+        {
+          "name": "Sumatra Mandheling - Earthy",
+          "slug": "sumatra-mandheling",
+          "image": "sumatra_mandheling.jpg",
+          "price": 13.2,
+          "stock": 50,
+          "taste_notes": "Tabak, Kakao, Zemité tóny",
+          "description": "Silný a tmavý profil, ideálny pre tých, ktorí chcú výraznú kávu s nízkou aciditou.",
+          "grind_options": ["Celé zrno", "French Press", "Espresso"]
+        }
+      ]
+    },
+    {
+      "name": "Silné Espresso a Zmesi",
+      "slug": "silne-espresso-zmesi",
+      "image": "espresso_dark_bg.jpg",
+      "id": 3,
+      "description": "Tmavé praženie určené predovšetkým pre espresso. Vďaka prídavku Robusty vytvára hustú penu (cremu) a má silnú chuť.",
+      "region_info": "Vysoký obsah kofeínu. Pre automatické kávovary a portafiltre.",
+      "beans": [
+        {
+          "name": "Taliansky Blend 80/20",
+          "slug": "taliansky-blend-80-20",
+          "image": "blend_italiano.jpg",
+          "price": 10.2,
+          "stock": 180,
+          "taste_notes": "Horká čokoláda, Dym, Korenie",
+          "description": "80% Arabika, 20% Robusta. Silná a tradičná chuť s hustou a stabilnou cremou.",
+          "grind_options": ["Celé zrno", "Espresso", "Moka"]
+        },
+        {
+          "name": "Španielsky Blend (100% Robusta)",
+          "slug": "spanielsky-blend-robusta",
+          "image": "spanielsky_robusta.jpg",
+          "price": 8.5,
+          "stock": 250,
+          "taste_notes": "Veľmi horká, Extrémny kofeín, Silné",
+          "description": "Pre milovníkov extrémne silnej kávy. Vysoký obsah kofeínu a maximálna crema.",
+          "grind_options": ["Celé zrno", "Espresso", "Moka"]
+        },
+        {
+          "name": "Barista's Choice - Automat",
+          "slug": "barista-automat",
+          "image": "automat_blend.jpg",
+          "price": 9.5,
+          "stock": 110,
+          "taste_notes": "Kakao, Bohatá pena (Crema), Nízka acidita",
+          "description": "Špeciálne namiešaná zmes, ktorá minimalizuje problémy v automatických kávovaroch.",
+          "grind_options": ["Celé zrno"]
+        },
+        {
+          "name": "Mexico Chiapas - Dark Roast",
+          "slug": "mexico-chiapas-dark",
+          "image": "mexico_chiapas_dark.jpg",
+          "price": 11.9,
+          "stock": 90,
+          "taste_notes": "Korenie, Orechy, Horká čokoláda",
+          "description": "Tmavšie pražená káva s výraznými tónmi a minimálnou aciditou. Ideálna pre klasické espresso.",
+          "grind_options": ["Celé zrno", "Espresso", "Moka"]
+        },
+        {
+          "name": "Cuba Serrano Lavado",
+          "slug": "cuba-serrano-lavado",
+          "image": "cuba_serrano.jpg",
+          "price": 13.5,
+          "stock": 70,
+          "taste_notes": "Tabak, Dym, Sladký karamel",
+          "description": "Výrazná a aromatická káva. Tmavšie praženie s plným a hladkým telom.",
+          "grind_options": ["Celé zrno", "Espresso", "French Press"]
+        },
+        {
+          "name": "India Monsooned Malabar",
+          "slug": "india-monsooned",
+          "image": "india_malabar.jpg",
+          "price": 12.8,
+          "stock": 65,
+          "taste_notes": "Sladké drevo, Sladový chlieb, Hutné telo",
+          "description": "Zrná vystavené monzúnovým vetrom a dažďom, čo vytvára jedinečný, nízko-kyselinový profil.",
+          "grind_options": ["Celé zrno", "Espresso", "Moka"]
+        }
+      ]
+    },
+    {
+      "name": "Špeciálne & Ochutené Kávy",
+      "slug": "specialne-a-ochutene",
+      "image": "special_products_bg.jpg",
+      "id": 4,
+      "description": "Kávy pre špeciálne príležitosti alebo špecifické požiadavky (bezkofeínové, ochutené, sezónne).",
+      "region_info": "Ideálne ako darček alebo pre večerné pitie kávy.",
+      "beans": [
+        {
+          "name": "Kolumbia Decaf - Swiss Water Process",
+          "slug": "kolumbia-decaf",
+          "image": "kolumbia_decaf.jpg",
+          "price": 12.9,
+          "stock": 70,
+          "taste_notes": "Jemná čokoláda, Orechové maslo",
+          "description": "Bezkofeínová káva bez chemikálií (SWP). Zachováva si plnú chuť a arómu.",
+          "grind_options": ["Celé zrno", "Všetky metódy"]
+        },
+        {
+          "name": "Vianočná Zmes (Sezónna)",
+          "slug": "vianocna-zmes",
+          "image": "vianocna_zmes.jpg",
+          "price": 13.9,
+          "stock": 40,
+          "taste_notes": "Perník, Škorica, Pomaranč",
+          "description": "Limitovaná edícia s tónmi zimného korenia. Stredné praženie, ideálna na Vianoce.",
+          "grind_options": ["Celé zrno", "Filter"]
+        },
+        {
+          "name": "Ochutená Vanilková",
+          "slug": "ochutena-vanilka",
+          "image": "vanilkova_kava.jpg",
+          "price": 11.5,
+          "stock": 85,
+          "taste_notes": "Vanilka, Karamel, Sladká",
+          "description": "Klasická Arabika s jemnou vanilkovou arómou, ideálna pre Latte a Cappuccino.",
+          "grind_options": ["Celé zrno", "Filter", "Automat"]
+        },
+        {
+          "name": "Káva s Príchuťou Lieskového Orieška",
+          "slug": "ochutena-oriesok",
+          "image": "orieskova_kava.jpg",
+          "price": 11.5,
+          "stock": 85,
+          "taste_notes": "Lieskový oriešok, Čokoláda",
+          "description": "Stredne pražená káva s intenzívnou príchuťou praženého lieskového orieška.",
+          "grind_options": ["Celé zrno", "Filter", "Automat"]
+        }
+      ]
+    }
+  ]
+}
