@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 150px;
+  background: #ceaea0;
+}
+/* Home */
+.home img {
+  max-width: 230px;
+}
+.home .destinations {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  padding: 30px;
+  background: #50322c;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #715a4e;
+  z-index: 2;
+}
+#nav a {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  opacity: 0.7;
+  transition: 0.2 ease color;
+}
+#nav a.router-link-active,
+#nav a:hover {
+  opacity: 1;
+  color: rgb(189, 130, 91);
+}
+#logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 1 !important;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}

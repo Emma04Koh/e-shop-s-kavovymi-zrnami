@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HomeView from './views/HomeView.vue'
+import TheNavigation from './components/TheNavigation.vue'
 </script>
 
 <template>
-  <HomeView />
+  <TheNavigation />
 </template>
