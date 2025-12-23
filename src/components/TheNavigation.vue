@@ -5,7 +5,7 @@ import CoffeeData from '@/assets/data.json'
 export default defineComponent({
   name: 'TheNavigation',
   computed: {
-    coffee() {
+    coffeeD() {
       return CoffeeData.coffee
     },
   },
@@ -17,11 +17,11 @@ export default defineComponent({
     <nav id="nav">
       <RouterLink to="/">Home</RouterLink>
       <RouterLink
-        v-for="bean in coffee"
-        :key="bean.id"
-        :to="{ name: 'bean', params: { BeanSlug: bean.slug } }"
+        v-for="coffee in coffeeD"
+        :key="coffee.id"
+        :to="{ name: 'coffee', params: { CoffeeSlug: coffee.slug } }"
       >
-        {{ bean.name }}
+        {{ coffee.name }}
       </RouterLink>
     </nav>
   </header>
