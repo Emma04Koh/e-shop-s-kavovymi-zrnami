@@ -1,16 +1,45 @@
 body {
-  padding: 0;
-  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5;
+  margin: 5;
   margin-top: 150px;
   background: #ceaea0;
 }
 /* Home */
-.home img {
-  max-width: 230px;
+.coffee {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
 }
-.home .destinations {
+
+.home h1 {
+  text-align: center;
+  color: #50322c;
+}
+
+.coffee-item {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+.coffee-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.coffee-item h2 {
+  margin: 0.5rem 0;
+  text-align: center;
+  color: #50322c;
+}
+
+.coffee-item p {
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
 }
 
 /* Navigation */
@@ -29,6 +58,7 @@ body {
   z-index: 2;
 }
 #nav a {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-right: 20px;
   color: white;

@@ -17,13 +17,13 @@ export default defineComponent({
     <div class="home">
       <h1>Kávové zrná k Vaším službám</h1>
       <div class="coffee">
-        <RouterLink
-          v-for="bean in coffee"
-          :key="bean.id"
-          :to="{ name: 'beans', params: { BeanSlug: bean.slug } }"
-        >
-          <img :src="'/public/images/${ bean.image }'" :alt="bean.name" />
-        </RouterLink>
+        <div v-for="bean in coffee" :key="bean.id" class="coffee-item">
+          <RouterLink :to="{ name: 'bean', params: { BeanSlug: bean.slug } }">
+            <img :src="`/images/${bean.image}`" :alt="bean.name" />
+          </RouterLink>
+          <h2>{{ bean.name }}</h2>
+          <p>{{ bean.region_info }}</p>
+        </div>
       </div>
     </div>
   </main>
