@@ -39,7 +39,7 @@ export default defineComponent({
       <h1>Kávové zrná k Vaším službám</h1>
       <div class="coffee">
         <div v-for="coffee in coffeeD" :key="coffee.id" class="coffee-item">
-          <RouterLink :to="{ name: 'coffee', params: { CoffeeSlug: coffee.slug } }">
+          <RouterLink :to="{ name: 'beans', params: { CoffeeSlug: coffee.slug } }">
             <img :src="`/images/${coffee.image}`" :alt="coffee.name" />
           </RouterLink>
           <h2>{{ coffee.name }}</h2>

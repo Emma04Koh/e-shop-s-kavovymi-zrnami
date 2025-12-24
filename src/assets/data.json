@@ -5,7 +5,7 @@
       "slug": "klasicke-arabiky",
       "image": "arabica_classic_bg.jpg",
       "id": 1,
-      "description": "Najpredávanejšie odrody s vyváženou a konzistentnou chuťou, nízkou aciditou a plným telom. Ideálne pre každý deň.",
+      "description": "Vstúpte do sveta nadčasovej chuti s našou starostlivo kurátorovanou kolekciou klasických Arabík. Tieto odrody predstavujú pilier kávovej kultúry a sú vyhľadávané pre svoju mimoriadnu vyváženosť a schopnosť priniesť konzistentne dokonalú šálku kávy každé ráno. Naše klasické Arabiky pochádzajú z najznámejších kávových regiónov sveta, kde klíma a nadmorská výška spolupracujú na vytvorení hladkého, plného tela s nízkou, takmer nebadateľnou aciditou. Sú ideálne pre milovníkov tradičného talianskeho espressa, ale rovnako excelujú aj v mliečnych variáciách, kde ich prirodzená sladkosť čokolády a lieskových orieškov dokonale vynikne.",
       "region_info": "Vhodné pre espresso, moka kanvicu, prekvapkávanú kávu a automatické kávovary.",
       "beans": [
         {
@@ -15,7 +15,7 @@
           "price": 10.9,
           "stock": 150,
           "taste_notes": "Mliečna čokoláda, Karamel, Lieskové oriešky",
-          "description": "Kultová brazílska káva s jemným a sladkým profilom. Nízka acidita.",
+          "description": "Brazília Santos je legendou medzi kávami, pomenovaná podľa prístavu, cez ktorý sa vyváža do celého sveta. Naša verzia je spracovaná suchou metódou (Natural), čo umožňuje kávovému zrnu vstrebať maximum sladkosti z dužiny plodu. Pri strednom pražení sa naplno rozvíja jej krémové telo a neodolateľné tóny čerstvo upražených lieskových orieškov. Je to káva s minimálnou kyslosťou, ktorá je v ústach hladká ako zamat, vďaka čomu sa stala svetovým štandardom pre prípravu kvalitného domáceho espressa.",
           "grind_options": ["Celé zrno", "Espresso", "Filter", "Automat"]
         },
         {
@@ -25,7 +25,7 @@
           "price": 11.5,
           "stock": 120,
           "taste_notes": "Kakao, Červené ovocie, Mandle",
-          "description": "Kolumbijská klasika s plným telom a strednou aciditou. Stabilná a spoľahlivá chuť.",
+          "description": "Pestovaná vo vysokých nadmorských výškach kolumbijských Ánd, táto káva profituje z bohatej sopečnej pôdy a unikátnej mikroklímy. Kolumbia Excelso je známa svojou robustnou štruktúrou a komplexnosťou, ktorú máloktorá iná klasická káva dosahuje. V každom dúšku objavíte hlboké tóny tmavého kakaa, ktoré sú jemne vyvážené sviežosťou zrelého červeného ovocia. Jej záver je čistý a sladký, pripomínajúci marcipán a mandle, čo z nej robí vynikajúcu voľbu pre náročných kávičkárov, ktorí hľadajú v šálke hĺbku a energiu.",
           "grind_options": ["Celé zrno", "Espresso", "Všetky metódy"]
         },
         {
@@ -35,7 +35,7 @@
           "price": 11.2,
           "stock": 95,
           "taste_notes": "Hnedý cukor, Citrusy, Kakao",
-          "description": "Vysokohorská káva (SHG) s čistým spracovaním a jasným, ale vyváženým profilom.",
+          "description": "Označenie SHG (Strictly High Grown) znamená, že táto káva rástla v nadmorskej výške nad 1350 metrov, kde chladnejší vzduch spomaľuje proces dozrievania a umožňuje kávovej čerešni vyvinúť koncentrovanejšiu a bohatšiu arómu. Táto káva z Hondurasu vás prekvapí svojou priezračnou čistotou a jemnou sladkosťou pripomínajúcou trstinový cukor. Je to majstrovské dielo rovnováhy – má dostatok tela na to, aby vás uspokojila ako espresso, a zároveň dosť jemných citrusových podtónov na to, aby vás osviežila v podobe filtrovanej kávy.",
           "grind_options": ["Celé zrno", "Filter", "Automat"]
         },
         {
@@ -45,7 +45,7 @@
           "price": 12.5,
           "stock": 80,
           "taste_notes": "Jemná, Tóny slivky a vanilky",
-          "description": "Organická káva z Andských oblastí. Jemná, príjemná chuť s čistým záverom.",
+          "description": "Naša peruánska káva pochádza z malých rodinných plantáží v srdci Ánd, kde sa k pestovaniu pristupuje s maximálnou úctou k prírode. Klasifikácia Grade 1 zaručuje, že do vášho mlynčeka sa dostanú len tie najkvalitnejšie, ručne zbierané zrná bez defektov. Táto káva je nesmierne elegantná a jemná, s hodvábnym telom, v ktorom dominujú sladké tóny sušených sliviek a exotickej vanilky. Je to ideálna voľba pre milovníkov 'bio' kvality, ktorí si potrpia na čistú chuť bez rušivých horkých elementov.",
           "grind_options": ["Celé zrno", "Filter", "French Press"]
         }
       ]
@@ -55,7 +55,7 @@
       "slug": "vyberove-filter-light",
       "image": "speciality_bg.jpg",
       "id": 2,
-      "description": "Kávy pre metódy filtrovania. Svetlé praženie zvýrazňuje jedinečné ovocné a kvetinové tóny každého regiónu.",
+      "description": "Pre skutočných kávových gurmánov prinášame svet Specialty kávy – kategóriu, kde sa káva prestáva vnímať ako nápoj a začína sa chápať ako zážitok. Naše Single Origin kávy pochádzajú z konkrétnych fariem a mikrolotov, čo nám umožňuje sledovať ich pôvod až ku konkrétnemu farmárovi. Tieto kávy pražíme štýlom 'Light Roast', čím zvýrazňujeme ich prirodzený terrior a ovocný charakter, ktorý by sa pri tmavom pražení stratil. Pripravte sa na fascinujúcu cestu plnú kvetinových vôní, iskrivej acidity a komplexných chutí, ktoré pripomínajú skôr kvalitné vína než tradičnú kávu. Sú to zrná určené pre tých, ktorí radi experimentujú s alternatívnymi metódami prípravy a hľadajú v šálke nekonečnú rozmanitosť prírody.",
       "region_info": "Vysoká kvalita, ideálne pre V60, Chemex a Aeropress.",
       "beans": [
         {
@@ -65,7 +65,7 @@
           "price": 14.9,
           "stock": 65,
           "taste_notes": "Jazmín, Bergamot, Bobuľové ovocie",
-          "description": "Aromatická, kvetinová, veľmi vysoká acidita. Skutočný 'diamant' medzi africkými kávami.",
+          "description": "Región Yirgacheffe je považovaný za svätý grál kvetinových káv. Táto Etiópia prešla mokrým spracovaním (Washed), čo jej dodáva priam krištáľovú čistotu v šálke. Hneď po zomletí vás očarí opojná vôňa jazmínu a bergamotu, ktorá je typická pre najlepšie odrody tejto oblasti. V chuti dominuje osviežujúca acidita lesného ovocia a sladkých citrusov, vďaka čomu pôsobí káva ľahko a povzbudzujúco. Je to absolútna nevyhnutnosť pre každého fanúšika moderných filtrovaných káv.",
           "grind_options": ["Celé zrno", "Filter (Hrubé)"]
         },
         {
@@ -75,7 +75,7 @@
           "price": 15.5,
           "stock": 55,
           "taste_notes": "Čierna ríbezľa, Paradajka, Víno",
-          "description": "Komplexná a šťavnatá káva, typická pre Keňu. Stredné telo a výrazné ovocné tóny.",
+          "description": "Keňa AA je káva pre odvážnych. Označenie AA označuje najväčšiu veľkosť zrna, ktorá je v Keňi spojená s najvyššou koncentráciou chuťových olejov. Táto káva je svetoznáma svojou 'divokou' a intenzívnou chuťou, v ktorej nájdete unikátne tóny čiernych ríbezlí a jemnú vínovú aciditu. Je to komplexný chuťový profil, ktorý sa mení s každým stupňom ochladzovania kávy, pričom zakaždým odkrýva novú vrstvu ovocnosti. Zážitok, ktorý definuje to, čo znamená výberová káva.",
           "grind_options": ["Celé zrno", "Filter", "French Press"]
         },
         {
@@ -85,7 +85,7 @@
           "price": 13.5,
           "stock": 70,
           "taste_notes": "Med, Hrozno, Hladké telo",
-          "description": "Spracovaná metódou Honey, čo dodáva prirodzenú sladkosť a jemné telo.",
+          "description": "Táto káva z vychýrenej oblasti Tarrazú bola spracovaná metódou Honey, čo je fascinujúci stred medzi mokrým a suchým spracovaním. Zrná sa sušia s ponechanou časťou lepkavej dužiny, ktorá počas sušenia na slnku karamelizuje a preniká dovnútra zrna. Výsledkom je neuveriteľne sladká káva s plným, sirupovým telom a jemnými tónmi medu a bieleho hrozna. Je to most medzi klasikou a modernou – dostatočne sladká pre každého, no dostatočne komplexná pre experta.",
           "grind_options": ["Celé zrno", "Filter"]
         },
         {
@@ -95,7 +95,7 @@
           "price": 14.0,
           "stock": 45,
           "taste_notes": "Pomarančová kôra, Čierny čaj, Karamel",
-          "description": "Veľmi čistá a elegantná káva. Perfektná pre tých, ktorí preferujú menej extrémne chute.",
+          "description": "Káva z Rwandy je synonymom pre eleganciu a čistotu. Naše zrná sú výsledkom precíznej práce farmárskych komunít v 'krajine tisícich kopcov', kde sa káva pestuje v extrémnych výškach. Rwanda Washed ponúka profil, ktorý pripomína Earl Grey čaj s medom – je jemná, s arómou pomarančovej kôry a čistým karamelovým záverom. Jej jemná textúra a vyvážená sladkosť z nej robia kávu, ktorú môžete piť po litroch a stále v nej objavovať nové nuansy.",
           "grind_options": ["Celé zrno", "Filter"]
         },
         {
@@ -105,7 +105,7 @@
           "price": 16.5,
           "stock": 35,
           "taste_notes": "Kvetinová, Jemná čokoláda, Čučoriedky",
-          "description": "Luxusná, vysoko hodnotená Arabika s bohatou, ale jemnou arómou.",
+          "description": "Panama Boquete patrí k absolútnej špičke svetovej produkcie. Vďaka špecifickej hmle zvanej 'bajareque', ktorá pravidelne zvlhčuje kávovníky vo vulkanickej pôde, zrná dozrievajú veľmi pomaly a rovnomerne. Táto káva je oslavou sofistikovanosti – spája v sebe ľahkosť jarných kvetov s bohatou chuťou lesných čučoriedok a záverom z jemnej mliečnej čokolády. Je to káva pre slávnostné chvíle, kedy si chcete vychutnať to najlepšie, čo súčasné kávové poľnohospodárstvo ponúka.",
           "grind_options": ["Celé zrno", "Filter (Hrubé)"]
         },
         {
@@ -115,7 +115,7 @@
           "price": 13.2,
           "stock": 50,
           "taste_notes": "Tabak, Kakao, Zemité tóny",
-          "description": "Silný a tmavý profil, ideálny pre tých, ktorí chcú výraznú kávu s nízkou aciditou.",
+          "description": "Ak hľadáte protipól k ovocným kávam, Sumatra Mandheling je vaším cieľom. Spracovaná tradičnou indonézskou metódou 'Giling Basah' (mokré lúpanie), táto káva získava unikátnu tmavozelenú farbu zrna a svoj charakteristický profil. Má najmohutnejšie telo, aké môžete v 100% Arabike nájsť. Jej chuť je hlboká, zemitá a korenistá, s výraznými tónmi tabaku a horkého kakaa bez akejkoľvek acidity. Je to káva s dušou orientu, ktorá vás zahreje a pohltí svojou intenzitou.",
           "grind_options": ["Celé zrno", "French Press", "Espresso"]
         }
       ]
@@ -125,7 +125,7 @@
       "slug": "silne-espresso-zmesi",
       "image": "espresso_dark_bg.jpg",
       "id": 3,
-      "description": "Tmavé praženie určené predovšetkým pre espresso. Vďaka prídavku Robusty vytvára hustú penu (cremu) a má silnú chuť.",
+      "description": "Pre tých, ktorí vyžadujú, aby ich káva mala skutočnú silu, charakter a hustú textúru, sme vytvorili kategóriu Silné Espresso. Tieto zmesi sú navrhnuté tak, aby prerazili cez mlieko v cappuccine alebo poskytli intenzívny kofeínový náboj v krátkom ristrette. Používame kombináciu vysokoakostných Arabík a najlepších svetových Robust, ktoré pražíme tradičným spôsobom 'Dark Roast'. Tento proces potláča aciditu a prebúdza hlboké, dymové a čokoládové tóny s nekonečnou dochuťou. Naše zmesi sú ideálne pre profesionálne pákové stroje aj domáce automaty, kde zaručujú bohatú, orieškovo-hnedú cremu, ktorá je znakom dokonale pripraveného espressa.",
       "region_info": "Vysoký obsah kofeínu. Pre automatické kávovary a portafiltre.",
       "beans": [
         {
@@ -135,7 +135,7 @@
           "price": 10.2,
           "stock": 180,
           "taste_notes": "Horká čokoláda, Dym, Korenie",
-          "description": "80% Arabika, 20% Robusta. Silná a tradičná chuť s hustou a stabilnou cremou.",
+          "description": "Tento blend je našou poctou rímskej kávovej kultúre. Pomer 80% Arabiky a 20% Robusty je zlatým štandardom pre vytvorenie espressa s plným telom a hustou penou. Arabika dodáva zmesi sladkosť a arómu, zatiaľ čo prémiová Robusta zabezpečuje potrebnú silu, jemnú korenistosť a dymový podtón. Chuťový profil dominuje horká čokoláda a pražené orechy, čo z tejto kávy robí ideálnu voľbu pre každodenný ranný rituál, ktorý vás zaručene prebudí.",
           "grind_options": ["Celé zrno", "Espresso", "Moka"]
         },
         {
@@ -145,7 +145,7 @@
           "price": 8.5,
           "stock": 250,
           "taste_notes": "Veľmi horká, Extrémny kofeín, Silné",
-          "description": "Pre milovníkov extrémne silnej kávy. Vysoký obsah kofeínu a maximálna crema.",
+          "description": "Pre milovníkov extrémov, ktorí hľadajú kávu bez akýchkoľvek kompromisov. Naša 100% výberová Robusta vyvracia mýty o nekvalite tohto druhu – je to káva s obrovskou energiou a najvyšším obsahom kofeínu v našej ponuke. Ponúka hlbokú, zemitú horkosť bez stopy kyslosti a cremu, ktorá je taká hustá, že na nej udržíte lyžičku cukru. Ideálna pre dlhé pracovné dni alebo ako základ pre silné mliečne nápoje.",
           "grind_options": ["Celé zrno", "Espresso", "Moka"]
         },
         {
@@ -155,7 +155,7 @@
           "price": 9.5,
           "stock": 110,
           "taste_notes": "Kakao, Bohatá pena (Crema), Nízka acidita",
-          "description": "Špeciálne namiešaná zmes, ktorá minimalizuje problémy v automatických kávovaroch.",
+          "description": "Majitelia automatických kávovarov vedia, že príliš mastné zrná môžu poškodiť mlynček. Barista's Choice je zmes špeciálne upražená tak, aby bola suchá na povrchu, no plná chuti vo vnútri. Kombinuje zrná z Brazílie a Vietnamu v pomere, ktorý zaručuje stabilitu chuti pri každej šálke. Očakávajte klasický kakaový profil s bohatou penou a minimálnou náročnosťou na údržbu vášho stroja.",
           "grind_options": ["Celé zrno"]
         },
         {
@@ -165,7 +165,7 @@
           "price": 11.9,
           "stock": 90,
           "taste_notes": "Korenie, Orechy, Horká čokoláda",
-          "description": "Tmavšie pražená káva s výraznými tónmi a minimálnou aciditou. Ideálna pre klasické espresso.",
+          "description": "Káva z mexického Chiapasu je známa svojou jemnosťou, no v našej verzii 'Dark Roast' získava úplne nový rozmer. Tmavé praženie karamelizuje prírodné cukry v zrne do podoby hustého sirupu. V chuti ucítite pikantné tóny mexického korenia, ktoré sa miešajú s horkou čokoládou a vlašskými orechmi. Skvelá voľba pre tých, ktorí chcú single origin kávu, ale preferujú silný a tmavý štýl praženia.",
           "grind_options": ["Celé zrno", "Espresso", "Moka"]
         },
         {
@@ -175,7 +175,7 @@
           "price": 13.5,
           "stock": 70,
           "taste_notes": "Tabak, Dym, Sladký karamel",
-          "description": "Výrazná a aromatická káva. Tmavšie praženie s plným a hladkým telom.",
+          "description": "Kubánska káva je vzácnosťou, ktorú definuje jej izolovanosť a unikátne pôdne podmienky pohoria Sierra Maestra. Cuba Serrano má extrémne nízku aciditu a neuveriteľne hutné, takmer olejnaté telo. Jej profil je nezameniteľný – vonia po drahom kubánskom tabaku a dyme z cédrového dreva, pričom na jazyku zanecháva sladkú dochuť domáceho karamelu. Je to káva s charakterom starého sveta, ktorú si najlepšie vychutnáte k popoludňajšiemu oddychu.",
           "grind_options": ["Celé zrno", "Espresso", "French Press"]
         },
         {
@@ -185,7 +185,7 @@
           "price": 12.8,
           "stock": 65,
           "taste_notes": "Sladké drevo, Sladový chlieb, Hutné telo",
-          "description": "Zrná vystavené monzúnovým vetrom a dažďom, čo vytvára jedinečný, nízko-kyselinový profil.",
+          "description": "India Monsooned Malabar je výsledkom historickej náhody. Kedysi káva počas dlhej plavby do Európy v podpalubí drevených lodí menila svoju farbu a chuť pôsobením vlhkého morského vzduchu. Dnes tento proces simulujeme vystavením zŕn monzúnovým vetrom a dažďom po dobu niekoľkých týždňov. Výsledkom je unikátna káva, ktorá nemá absolútne žiadnu kyslosť. Má fascinujúcu chuť sladkého drievka, sladového chleba a korenia. Pre mnohých je to káva, pri ktorej zostanú po zvyšok života.",
           "grind_options": ["Celé zrno", "Espresso", "Moka"]
         }
       ]
@@ -195,7 +195,7 @@
       "slug": "specialne-a-ochutene",
       "image": "special_products_bg.jpg",
       "id": 4,
-      "description": "Kávy pre špeciálne príležitosti alebo špecifické požiadavky (bezkofeínové, ochutené, sezónne).",
+      "description": "Káva je svetom nekonečných možností a naša kategória Špeciálne & Ochutené kávy je toho dôkazom. Tu búrame mýty o tom, že káva musí byť len horká alebo ovocná. Ponúkame vám riešenia pre chvíle, kedy si chcete dopriať kávu neskoro večer bez obáv o spánok, alebo keď máte chuť na sladký dezert v podobe tekutého zlata. Naše ochutené kávy vznikajú spojením prémiovej Arabiky s prírodnými extraktmi, čo zaručuje autentickú vôňu bez chemickej pachute. Či už hľadáte sezónnu vianočnú limitku, ktorá vám pripomenie detstvo, alebo jemnú vanilkovú pohodu k nedeľnému koláču, táto sekcia je miestom pre vaše malé kávové radosti a hravé experimenty.",
       "region_info": "Ideálne ako darček alebo pre večerné pitie kávy.",
       "beans": [
         {
@@ -205,7 +205,7 @@
           "price": 12.9,
           "stock": 70,
           "taste_notes": "Jemná čokoláda, Orechové maslo",
-          "description": "Bezkofeínová káva bez chemikálií (SWP). Zachováva si plnú chuť a arómu.",
+          "description": "Zabudnite na nekvalitné bezkofeínové kávy z minulosti. Naša Kolumbia Decaf využíva patentovanú metódu Swiss Water, ktorá odstraňuje kofeín pomocou osmózy v čistej vode bez použitia jediného gramu chémie. Tento proces je natoľko šetrný, že v zrne zostáva zachovaný celý chuťový profil kvalitnej kolumbijskej Arabiky. V šálke je nerozoznateľná od bežnej kávy – ponúka sladké tóny orechového masla a mliečnej čokolády. Ideálny spoločník pre tehotné ženy, ľudí s citlivosťou na kofeín alebo pre váš večerný kávový rituál.",
           "grind_options": ["Celé zrno", "Všetky metódy"]
         },
         {
@@ -215,7 +215,7 @@
           "price": 13.9,
           "stock": 40,
           "taste_notes": "Perník, Škorica, Pomaranč",
-          "description": "Limitovaná edícia s tónmi zimného korenia. Stredné praženie, ideálna na Vianoce.",
+          "description": "Túto zmes pripravujeme len raz do roka, aby sme oslávili najkrajšie sviatky. Kombinuje sladké zrná z Brazílie s korenistými podtónmi Indie, pričom výsledný blend je upražený tak, aby v ňom vynikla prirodzená aróma pripomínajúca vianočné pečenie. V každom dúšku ucítite vôňu perníkového korenia, cejlónskej škorice a čerstvo nastrúhanej pomarančovej kôry. Je to káva, ktorá zahreje nielen vaše telo, ale aj dušu, a vnesie kúzlo Vianoc do každej kuchyne.",
           "grind_options": ["Celé zrno", "Filter"]
         },
         {
@@ -225,7 +225,7 @@
           "price": 11.5,
           "stock": 85,
           "taste_notes": "Vanilka, Karamel, Sladká",
-          "description": "Klasická Arabika s jemnou vanilkovou arómou, ideálna pre Latte a Cappuccino.",
+          "description": "Základom tejto delikatesy je stredne pražená Arabika zo Strednej Ameriky, ktorá je po upražení obohatená o jemný extrakt z vanilkových strukov Madagaskar. Výsledkom je káva, ktorá vonia ako čerstvo vytiahnutý vanilkový puding. Chuť je jemná, krémová a prirodzene sladká, vďaka čomu nepotrebujete pridávať cukor. Odporúčame pripravovať ako Latte Macchiato, kde mliečna pena ešte viac zvýrazní vanilkový charakter a vytvorí dokonalý dezertný nápoj.",
           "grind_options": ["Celé zrno", "Filter", "Automat"]
         },
         {
@@ -235,7 +235,7 @@
           "price": 11.5,
           "stock": 85,
           "taste_notes": "Lieskový oriešok, Čokoláda",
-          "description": "Stredne pražená káva s intenzívnou príchuťou praženého lieskového orieška.",
+          "description": "Lieskový oriešok a káva k sebe patria odjakživa. My sme túto kombináciu dotiahli k dokonalosti použitím zŕn, ktoré majú prirodzený orieškový profil, a následným pridaním arómy pražených lieskovcov. Táto káva je nesmierne aromatická – stačí otvoriť balenie a celá miestnosť sa zaplní vôňou pripomínajúcou slávnu orieškovú nátierku. V chuti je harmonická, s jemným čokoládovým podtónom, ideálna k popoludňajšiemu relaxu alebo ako darček pre niekoho, kto s kávou len začína a hľadá prístupné chute.",
           "grind_options": ["Celé zrno", "Filter", "Automat"]
         }
       ]
