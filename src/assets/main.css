@@ -42,7 +42,7 @@ body {
   line-height: 1.5;
 }
 
-/* Bean */
+/* CoffeeView */
 button {
   display: block;
   margin: 0 auto;
@@ -121,4 +121,55 @@ button {
 a {
   text-decoration: none;
   font-weight: bold;
+}
+
+/* BeansView */
+.beans .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1550px) {
+  .beans .cards {
+    grid-template-columns: repeat(3, 350px);
+  }
+}
+
+@media (max-width: 1150px) {
+  .beans .cards {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+
+@media (max-width: 750px) {
+  .beans .cards {
+    grid-template-columns: repeat(1, 350px);
+  }
+}
+
+.beans img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.beans .card .card_text {
+  background: #50322c;
+  color: white;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  border-top: 2px solid #715a4e;
+}
+
+.beans .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
