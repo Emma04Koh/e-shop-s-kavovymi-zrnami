@@ -173,3 +173,121 @@ a {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
+/* tlačítka */
+
+.button {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #715a4e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #50322c;
+}
+
+.buy-button {
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.8rem;
+  background-color: #50322c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #715a4e;
+}
+
+.not-found {
+  text-align: center;
+  padding: 3rem;
+}
+
+/* NotFoundView */
+
+.not-found {
+  text-align: center;
+  padding: 6rem 1rem;
+  color: #50322c;
+}
+.not-found h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+.not-found h2 {
+  font-size: 2.2rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.not-found button {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  background: #50322c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* CheckoutView */
+
+.checkout {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.order-summary {
+  background: #f8f1ed;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #715a4e;
+  border-radius: 6px;
+  margin-top: 0.4rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.submit-btn {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #50322c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.back-btn {
+  margin-top: 1.5rem;
+  background: transparent;
+  border: 2px solid #715a4e;
+  color: #50322c;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

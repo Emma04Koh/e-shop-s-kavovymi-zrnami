@@ -3,6 +3,9 @@ import HomeView from '@/views/HomeView.vue'
 import CoffeeView from '@/views/CoffeeView.vue'
 import BeansView from '@/views/BeansView.vue'
 import BeanDetail from '@/components/BeanDetail.vue'
+import CartView from '@/views/CartView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
+import CheckoutView from '@/views/CheckoutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +35,21 @@ const router = createRouter({
           props: true,
         },
       ],
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: CartView,
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: CheckoutView,
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: NotFoundView,
     },
   ],
 })
