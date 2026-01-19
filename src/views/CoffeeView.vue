@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import CoffeeData from '@/assets/data.json'
-import type { Coffee } from './HomeView.vue'
+import type { Coffee } from '@/types/coffee'
 
 export default defineComponent({
   name: 'CoffeeView',

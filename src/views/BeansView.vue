@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue'
 import CoffeeData from '@/assets/data.json'
 import BeanCard from '@/components/BeanCard.vue'
-import type { CoffeeBean } from './HomeView.vue'
+import type { CoffeeBean } from '@/types/coffee'
 
 export default defineComponent({
   name: 'BeansView',
@@ -59,24 +59,3 @@ export default defineComponent({
     </div>
   </div>
 </template>
-
-<style scoped>
-.search-container {
-  margin: 1.5rem auto;
-  max-width: 600px;
-  text-align: center;
-}
-.search-container input {
-  width: 100%;
-  padding: 0.9rem 1.2rem;
-  font-size: 1.1rem;
-  border: 2px solid #715a4e;
-  border-radius: 8px;
-}
-.no-results {
-  text-align: center;
-  padding: 3rem;
-  color: #50322c;
-  font-size: 1.2rem;
-}
-</style>

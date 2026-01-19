@@ -2,8 +2,6 @@
 import { defineComponent } from 'vue'
 import { useCartStore } from '@/stores/cart'
 import { useRouter } from 'vue-router'
-import CoffeeData from '@/assets/data.json'
-import type { Coffee } from './HomeView.vue'
 
 export default defineComponent({
   name: 'CartView',
@@ -25,12 +23,6 @@ export default defineComponent({
     CoffeeSlug: {
       type: String,
       required: true,
-    },
-  },
-  computed: {
-    coffee() {
-      const coffee = CoffeeData.coffee as Coffee[]
-      return coffee.find((c) => c.slug === this.CoffeeSlug)
     },
   },
 })
@@ -58,7 +50,7 @@ export default defineComponent({
           <button @click="cart.increaseQuantity(item.slug)">+</button>
         </div>
 
-        <div class="item-total">{{ (item.price * item.quantity).toFixed(2) }} €</div>
+        <div class="item-total">{{ (item.price * item.quantity!).toFixed(2) }} €</div>
 
         <button class="remove-btn" @click="cart.removeItem(item.slug)">Odstrániť</button>
       </div>

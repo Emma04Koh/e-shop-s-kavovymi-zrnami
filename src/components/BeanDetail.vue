@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue'
 import CoffeeData from '@/assets/data.json'
 import { useCartStore } from '@/stores/cart'
-import type { CoffeeBean } from '@/views/HomeView.vue'
+import type { CoffeeBean, Coffee } from '@/types/coffee'
 
 export default defineComponent({
   name: 'BeanDetail',
