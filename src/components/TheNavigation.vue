@@ -23,6 +23,7 @@ export default defineComponent({
       >
         {{ coffee.name }}
       </RouterLink>
+      <RouterLink to="/cart">Košík</RouterLink>
     </nav>
   </header>
 
