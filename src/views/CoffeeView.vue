@@ -21,7 +21,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <button @click="$router.push('/')">NASPÄŤ</button>
+  <button class="button" @click="$router.push('/')">Naspäť</button>
 
   <div class="coffee-details">
     <div class="coffee-text">
