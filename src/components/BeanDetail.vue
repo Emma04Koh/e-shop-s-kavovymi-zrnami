@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue'
 import CoffeeData from '@/assets/data.json'
 import { useCartStore } from '@/stores/cart'
+import type { CoffeeBean } from '@/views/HomeView.vue'
 
 export default defineComponent({
   name: 'BeanDetail',
@@ -22,7 +23,7 @@ export default defineComponent({
     },
   },
   methods: {
-    addToCart(bean) {
+    addToCart(bean: CoffeeBean) {
       const cartStore = useCartStore()
       cartStore.addItem(bean)
       alert('Pridané do košíka!')
