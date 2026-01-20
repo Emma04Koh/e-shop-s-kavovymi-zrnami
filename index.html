@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="src/assets/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <script>
+      ;(function () {
+        const repo = '/e-shop-s-kavovymi-zrnami'
+        const l = window.location
+
+        if (l.search.startsWith('?/')) {
+          const path = l.search.slice(2)
+          const newUrl = repo + '/' + path + l.hash
+          window.history.replaceState(null, '', newUrl)
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="app"></div>
