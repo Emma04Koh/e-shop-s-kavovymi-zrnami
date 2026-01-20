@@ -47,7 +47,7 @@ export default defineComponent({
       <p><strong>Možnosti mletia:</strong> {{ bean.grind_options.join(', ') }}</p>
       <button class="button" @click="addToCart(bean)">Pridať do košíka</button>
     </div>
-    <img :src="`/images/${bean.image}`" :alt="bean.name" />
+    <img :src="`../../images/${bean.image}`" :alt="bean.name + 'help'" />
   </div>
   <div v-else>
     <p>Bean not found.</p>

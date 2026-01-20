@@ -14,7 +14,7 @@ export default defineComponent({
 
 <template>
   <div class="card">
-    <img :src="`/images/${bean.image}`" :alt="bean.name" />
+    <img :src="`../images/${bean.image}`" :alt="bean.name" />
     <div class="card_text">{{ bean.name }}</div>
   </div>
 </template>

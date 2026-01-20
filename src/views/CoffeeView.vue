@@ -30,7 +30,7 @@ export default defineComponent({
       <p><strong>Región:</strong> {{ coffee?.region_info }}</p>
       <p>{{ coffee?.description }}</p>
     </div>
-    <img :src="`/images/${coffee?.image}`" :alt="coffee?.name" />
+    <img :src="`../images/${coffee?.image}`" :alt="coffee?.name" />
   </div>
 
   <RouterView />
