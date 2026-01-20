@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/e-shop-s-kavovymi-zrnami/',
+  /*base: '/e-shop-s-kavovymi-zrnami/',*/
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

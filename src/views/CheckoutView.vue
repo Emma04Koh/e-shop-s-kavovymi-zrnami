@@ -1,49 +1,49 @@
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from 'vue'
 import { useCartStore } from '@/stores/cart'
 import { useRouter } from 'vue-router'
 
 export default defineComponent({
   name: 'CheckoutView',
-  setup() {
-    const cart = useCartStore()
-    const router = useRouter()
-
-    const form = ref({
-      name: '',
-      email: '',
-      address: '',
-      city: '',
-      zip: '',
-    })
-
-    const submitOrder = () => {
-      if (!form.value.name || !form.value.email || !form.value.address) {
-        alert('Vyplňte prosím povinné polia')
+  data() {
+    return {
+      cart: useCartStore(),
+      router: useRouter(),
+      form: {
+        name: '',
+        email: '',
+        address: '',
+        city: '',
+        zip: '',
+      },
+    }
+  },
+  methods: {
+    submitOrder() {
+      if (!this.form.name || !this.form.email || !this.form.address) {
+        alert('Vyplnte prosim povinne polia')
         return
       }
 
       alert(
-        `Ďakujeme za objednávku!\n\nCelková suma: ${cart.totalPrice} €\nObjednávka bola odoslaná.`,
+        `Dakujeme za objednavku!\n\nCelkova suma: ${this.cart.totalPrice} €\nObjednavka bola odoslana.`,
       )
 
-      cart.clearCart()
-      router.push('/')
-    }
-
-    return { form, cart, submitOrder }
+      this.cart.clearCart()
+      this.router.push('/')
+    },
   },
 })
 </script>
 
 <template>
   <div class="checkout">
-    <h1>Dokončenie objednávky</h1>
+    <h1>Dokoncenie objednavky</h1>
 
     <div class="order-summary">
-      <h3>Súhrn objednávky</h3>
-      <p><strong>Položiek:</strong> {{ cart.totalItems }}</p>
-      <p><strong>Celková cena:</strong> {{ cart.totalPrice }} €</p>
+      <h3>Suhhrn objednavky</h3>
+      <p><strong>Poloziek:</strong> {{ cart.totalItems }}</p>
+      <p><strong>Celkova cena:</strong> {{ cart.totalPrice }} €</p>
     </div>
 
     <form @submit.prevent="submitOrder" class="checkout-form">
@@ -58,7 +58,7 @@ export default defineComponent({
       </label>
 
       <label>
-        Ulica a číslo *
+        Ulica a cislo *
         <input v-model="form.address" type="text" required />
       </label>
 
@@ -68,14 +68,14 @@ export default defineComponent({
           <input v-model="form.city" type="text" />
         </label>
         <label>
-          PSČ
+          PSC
           <input v-model="form.zip" type="text" />
         </label>
       </div>
 
-      <button type="submit" class="submit-btn">Dokončiť objednávku</button>
+      <button type="submit" class="submit-btn">Dokoncit objednavku</button>
     </form>
 
-    <button class="back-btn" @click="$router.push('/cart')">Späť do košíka</button>
+    <button class="back-btn" @click="$router.push('/cart')">Spat do kosika</button>
   </div>
 </template>

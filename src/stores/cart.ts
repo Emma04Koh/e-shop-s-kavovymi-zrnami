@@ -1,78 +1,77 @@
-import { ref, computed, watch } from 'vue'
+// stores/cart.ts
 import { defineStore } from 'pinia'
 import type { CoffeeBean } from '@/types/coffee'
 
-export const useCartStore = defineStore('cart', () => {
-  const items = ref<CoffeeBean[]>([])
+export const useCartStore = defineStore('cart', {
+  state: () => ({
+    items: [] as CoffeeBean[],
+  }),
 
-  const saved = localStorage.getItem('cart')
-  if (saved) {
-    try {
-      items.value = JSON.parse(saved)
-    } catch (e) {
-      console.warn(e)
-    }
-  }
-
-  watch(
-    items,
-    (newItems) => {
-      localStorage.setItem('cart', JSON.stringify(newItems))
+  getters: {
+    totalItems: (state) => {
+      return state.items.reduce((sum, item) => sum + (item.quantity ?? 0), 0)
     },
-    { deep: true },
-  )
+    totalPrice: (state) => {
+      return state.items
+        .reduce((sum, item) => sum + item.price * (item.quantity ?? 0), 0)
+        .toFixed(2)
+    },
+  },
 
-  function addItem(bean: CoffeeBean) {
-    const existing = items.value.find((i: CoffeeBean) => i.slug === bean.slug)
-    if (existing) {
-      existing.quantity! += 1
-    } else {
-      items.value.push({ ...bean, quantity: 1 })
-    }
-  }
-
-  function increaseQuantity(slug: string) {
-    const item = items.value.find((i: CoffeeBean) => i.slug === slug)
-    if (item) item.quantity! += 1
-  }
-
-  function decreaseQuantity(slug: string) {
-    const item = items.value.find((i: CoffeeBean) => i.slug === slug)
-    if (item) {
-      if (item.quantity! > 1) {
-        item.quantity! -= 1
-      } else {
-        removeItem(slug)
+  actions: {
+    init() {
+      const saved = localStorage.getItem('cart')
+      if (saved) {
+        try {
+          this.items = JSON.parse(saved)
+        } catch (e) {
+          console.warn(e)
+        }
       }
-    }
-  }
+    },
 
-  function removeItem(slug: string) {
-    items.value = items.value.filter((i: CoffeeBean) => i.slug !== slug)
-  }
+    saveToLocalStorage() {
+      localStorage.setItem('cart', JSON.stringify(this.items))
+    },
 
-  function clearCart() {
-    items.value = []
-  }
+    addItem(bean: CoffeeBean) {
+      const existing = this.items.find((i) => i.slug === bean.slug)
+      if (existing) {
+        existing.quantity = (existing.quantity ?? 0) + 1
+      } else {
+        this.items.push({ ...bean, quantity: 1 })
+      }
+      this.saveToLocalStorage()
+    },
 
-  const totalItems = computed(() => {
-    return items.value.reduce((sum, item: CoffeeBean) => sum + (item.quantity ?? 0), 0)
-  })
+    increaseQuantity(slug: string) {
+      const item = this.items.find((i) => i.slug === slug)
+      if (item) {
+        item.quantity = (item.quantity ?? 0) + 1
+        this.saveToLocalStorage()
+      }
+    },
 
-  const totalPrice = computed(() => {
-    return items.value
-      .reduce((sum, item: CoffeeBean) => sum + item.price * (item.quantity ?? 0), 0)
-      .toFixed(2)
-  })
+    decreaseQuantity(slug: string) {
+      const item = this.items.find((i) => i.slug === slug)
+      if (item) {
+        if (item.quantity && item.quantity > 1) {
+          item.quantity -= 1
+        } else {
+          this.removeItem(slug)
+        }
+        this.saveToLocalStorage()
+      }
+    },
 
-  return {
-    items,
-    addItem,
-    increaseQuantity,
-    decreaseQuantity,
-    removeItem,
-    clearCart,
-    totalItems,
-    totalPrice,
-  }
+    removeItem(slug: string) {
+      this.items = this.items.filter((i) => i.slug !== slug)
+      this.saveToLocalStorage()
+    },
+
+    clearCart() {
+      this.items = []
+      this.saveToLocalStorage()
+    },
+  },
 })
