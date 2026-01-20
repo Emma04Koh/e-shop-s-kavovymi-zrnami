@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      const l = window.location
+      const repo = '/e-shop-s-kavovymi-zrnami'
+      l.replace(
+        l.origin +
+          repo +
+          '/?/' +
+          l.pathname.replace(repo + '/', '') +
+          (l.search ? '&' + l.search.slice(1) : '') +
+          l.hash,
+      )
+    </script>
+  </head>
+  <body></body>
+</html>
