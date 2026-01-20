@@ -1,0 +1,12 @@
+// Source - https://stackoverflow.com/a
+// Posted by Marcello B.
+// Retrieved 2026-01-20, License - CC BY-SA 4.0
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
